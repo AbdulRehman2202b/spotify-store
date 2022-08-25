@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Shopify Store</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js"></script>
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    
+      <script src="jquery.js"></script>
+
+      <!-- jquery -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+      <style>
+         body {
+           background-color: #dedede;
+         }
+     
+         .cards {
+           box-shadow: 0px 0px 17px -10px rgba(0, 0, 0, 0.75);
+         }
+     
+         .cards:hover {
+           cursor: pointer;
+           box-shadow: 20px 20px 100px -50px #000;
+           transition: 0.3s;
+         }
+       </style>
+   
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+      </div>
+      <!-- end loader -->
+      <!-- header -->
+      <header>
+         <!-- header inner -->
+         <div class="header">
+            <div class="header_top d_none1">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-4">
+                        <ul class="conta_icon ">
+                           <li><a href="#"><img src="images/call.png" alt="#"/>Call us: 0341-1897680</a> </li>
+                        </ul>
+                     </div>
+                     <div class="col-md-4">
+                        <ul class="social_icon">
+                           <li> <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i>
+                              </a>
+                           </li>
+                           <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
+                           <li> <a href="#"> <i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                           <li> <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i>
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="col-md-4">
+                        <div class="se_fonr1">
+                           <form action="#" >
+                              <div class="select-box">
+                                 <label for="select-box1" class="label select-box1"><span class="label-desc">English</span> </label>
+                                 <select id="select-box1" class="select">
+                                    <option value="Choice 1">English</option>
+                                    <option value="Choice 1">Falkla</option>
+                                    <option value="Choice 2">Germa</option>
+                                    <option value="Choice 3">Neverl</option>
+                                 </select>
+                              </div>
+                           </form>
+                           <span class="time_o"> Open hour: 8.00 - 18.00</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="header_midil">
+               <div class="container">
+                  <div class="row d_flex">
+                     <div class="col-md-4">
+                        <ul class="conta_icon d_none1">
+                           <li><a href="#"><img src="images/email.png" alt="#"/> shopifystore23.pk@gmail.com</a> </li>
+                        </ul>
+                     </div>
+                     <div class="col-md-4">
+                        <a class="logo" href="#"><img src="images/logo.jpg" alt="#"/></a>
+                     </div>
+
+
+                     <div class="col-md-4">
+                        <ul class="right_icon d_none1">
+                           <li><a>Address:</a> </li>
+                           <li><a href="#">Lee Market,Near Hub Chowki,Bus stop Karachi</a></li>
+                           <li><iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d7240.287916514816!2d66.99534347219364!3d24.858932386218374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3eb33fddd66ad0f5%3A0x189477c665decf60!2sV252%2BW54%20Karachi%20lee%20market%2C%20Harris%20Rd%2C%20Napier%20Quarter%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!3m2!1d24.859771499999997!2d67.0004557!5e0!3m2!1sen!2s!4v1661356480368!5m2!1sen!2s" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></li> 
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="header_bottom">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8">
+                        <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                           <span class="navbar-toggler-icon"></span>
+                           </button>
+                           <div class="collapse navbar-collapse" id="navbarsExample04">
+                              <ul class="navbar-nav mr-auto">
+                                 <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="about.html">About</a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="products.html">Products</a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="fashion.html">Fashion</a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="news.html">News</a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact Us</a>
+                                 </li>
+                              </ul>
+                           </div>
+                        </nav>
+                     </div>
+                     <!-- <div class="col-md-4">
+                        <div class="search">
+                           <form action="/action_page.php">
+                              <input  id="inpid" type="text" placeholder="Search">
+                             <button class="btn btn-danger" id="btnid">search</button>
+                           </form>
+                        </div>
+                     </div> -->
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- end header inner -->
+      <!-- end header -->
+      <!-- banner -->
+      <section class="banner_main">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-8">
+                  <div class="text-bg">
+                     <h1> <span class="blodark"> Shopify Store </span> <br>Trands</h1>
+                     <p>A huge fashion collection for ever </p>
+                     <a class="read_more" href="#">Shop now</a>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="ban_img">
+                     <figure><img src="images/ban_img.png" alt="#"/></figure>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- end banner -->
+      <!-- six_box section -->
+      <div class="six_box">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-md-2 col-sm-4 pa_left">
+                  <div class="six_probpx yellow_bg">
+                     <i><img src="images/shoes.png" alt="#"/></i>
+                     <span>Shoes</span>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 pa_left">
+                  <div class="six_probpx bluedark_bg">
+                     <i><img src="images/211752_glasses_icon.png" style="height: 84px;" alt=""></i>
+                     <span>glasses</span>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 pa_left">
+                  <div class="six_probpx yellow_bg">
+                     <i><img src="images/pent.png" alt="#"/></i>
+                     <span>Pante & socks</span>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 pa_left">
+                  <div class="six_probpx bluedark_bg">
+                     <i><img src="images/t_shart.png" alt="#"/></i>
+                     <span>T-shirt & tankstop</span>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 pa_left">
+                  <div class="six_probpx yellow_bg">
+                     <i><img src="images/jakit.png" alt="#"/></i>
+                     <span>cardigans & jumpers</span>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 pa_left">
+                  <div class="six_probpx bluedark_bg">
+                     <i><img src="images/cap.png" style="height: 84px;" alt="#"/></i>
+                     <span>Top & hat</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end six_box section -->
+      <!-- project section -->
+      <div id="project" class="project">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Featured Products</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+            <div class="product_main">
+              
+               <div class="container p-5 mt-2 ">
+                  <div class="row d-flex justify-content-center ">
+                    <div class="col-1"></div>
+                    <div class="col-8">
+                      <div class="input-group  mt-2">
+                        <input type="text" placeholder="Search....." class="form-control" id="inp">
+                        <div class="input-group-append">
+                          <button type="button" class="btn btn-dark" id="search" style="z-index:0;">Search</button>
+                        </div>
+                      </div>
+                    </div>
+                    
+                           
+                           <!-- this video is part 2 -->
+                        <!-- add to cart icon add -->
+              
+                        <div class="col-md-3 d-flex justify-content-start">
+                          <div class="pt-3 pl-0 pb-0 pr-0">
+                            <i class="fas fa-shopping-cart fa-2x ml-md-5"></i>
+                          </div>
+                          <span class="badge badge-success mt-0 align-self-start" id="cart_item_count" style="margin-left: -25px;margin-top: -5px;">0</span>
+                          
+                        </div>
+              
+              
+              
+              
+              
+                  </div>
+                  <div class="row p-5" id="panel">
+                    <h1 class="display-3 text-center text-muted" id="not_find_any_thing"></h1>
+              
+                    <div class="col-md-6 col-lg-3 mt-5">
+                      <div class="cards p-2">
+                        <img class="card-img-top" src="Images/img1.png" alt="">
+                        <div class="card-body">
+                          <div class="d-flex justify-content-between">
+              
+                            <h5 class="card-title">Reebok</h5>
+                            <div>
+                              <span class="text-success">RS.</span><span class="text-success">2150</span>
+                            </div>
+                          </div>
+                          <p class="card-text" style="font-size:14px;">Nanoflex TR Men's Training Shoes green</p>
+                          <div class="d-flex justify-content-between">
+              
+                           <button><div class="btn btn-dark text-white text-center pl-2 pr-2 cart_btn">Buy Now</div></button>
+                            <!-- <div class="bg-dark text-white text-center pl-2 pr-2">Wishlist</div> -->
+              
+                          </div>
+              
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+              
+                    <div class="col-md-6 col-lg-3 mt-5">
+                      <div class="cards p-2">
+                        <img class="card-img-top" src="Images/img2.png" alt="">
+                        <div class="card-body">
+                          <div class="d-flex justify-content-between">
+              
+                            <h5 class="card-title">Adidas</h5>
+                            <div>
+                              <span class="text-success">RS.</span><span class="text-success">2220</span>
+                            </div>
+                          </div>
+                          <p class="card-text" style="font-size:14px;">NMD R1 Primerable Shoes Black GX3534</p>
+                          <div class="d-flex justify-content-between">
+              
+                           <button><div class="btn btn-dark text-white text-center pl-2 pr-2 cart_btn">Buy Now</div></button>
+                            <!-- <div class="bg-dark text-white text-center pl-2 pr-2">Wishlist</div> -->
+              
+                          </div>
+              
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="col-md-6 col-lg-3 mt-5">
+                      <div class="cards p-2">
+                        <img class="card-img-top" src="Images/img3.png" alt="">
+                        <div class="card-body">
+                          <div class="d-flex justify-content-between">
+              
+                            <h5 class="card-title">Nike</h5>
+                            <div>
+              
+                              <span class="text-success">RS.</span><span class="text-success">3130</span>
+                            </div>
+                          </div>
+                          <p class="card-text" style="font-size:14px;">NMD R1 Shoes black GZ4534</p>
+                          <div class="d-flex justify-content-between">
+              
+                           <button><div class="btn btn-dark text-white text-center pl-2 pr-2 cart_btn">Buy Now</div></button>
+                            <!-- <div class="bg-dark text-white text-center pl-2 pr-2">Wishlist</div> -->
+              
+                          </div>
+              
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="col-md-6 col-lg-3 mt-5">
+                      <div class="cards p-2">
+                        <img class="card-img-top" src="Images/img4.png" alt="">
+                        <div class="card-body">
+                          <div class="d-flex justify-content-between">
+              
+                            <h5 class="card-title">Nike</h5>
+                            <div>
+                              <span class="text-success">RS</span><span class="text-success">4160</span>
+                            </div>
+                          </div>
+                          <p class="card-text" style="font-size:14px;">Ultraboast 21 Shoes Fy2347</p>
+                          <div class="d-flex justify-content-between">
+              
+                           <button><div class="btn btn-dark text-white text-center pl-2 pr-2 cart_btn">Buy Now</div></button>
+                            <!-- <div class="bg-dark text-white text-center pl-2 pr-2">Wishlist</div> -->
+              
+                          </div>
+              
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+              
+                    <div class="col-md-6 col-lg-3 mt-5">
+                      <div class="cards p-2">
+                        <img class="card-img-top" src="Images/img5.png" alt="">
+                        <div class="card-body">
+                          <div class="d-flex justify-content-between">
+              
+                            <h5 class="card-title">Reebok</h5>
+                            <div>
+              
+                              <span class="text-success">RS.</span><span class="text-success">3100</span>
+                            </div>
+                          </div>
+                          <p class="card-text" style="font-size:14px;">A workhorse built to help power you through</p>
+                          <div class="d-flex justify-content-between">
+              
+                           <button><div class="btn btn-dark text-white text-center pl-2 pr-2 cart_btn">Buy Now</div></button>
+                            <!-- <div class="bg-dark text-white text-center pl-2 pr-2">Wishlist</div> -->
+              
+                          </div>
+              
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+              
+                    <div class="col-md-6 col-lg-3 mt-5">
+                      <div class="cards p-2">
+                        <img class="card-img-top" src="Images/img6.png" alt="">
+                        <div class="card-body">
+                          <div class="d-flex justify-content-between">
+              
+                            <h5 class="card-title">Reebok</h5>
+                            <div>
+              
+                              <span class="text-success">RS.</span><span class="text-success">3180</span>
+                            </div>
+                          </div>
+                          <p class="card-text" style="font-size:14px;">Energen Run Men's Running Shoes Blue</p>
+                          <div class="d-flex justify-content-between">
+              
+                           <button><div class="btn btn-dark text-white text-center pl-2 pr-2 cart_btn">Buy Now</div></button>
+                            <!-- <div class="bg-dark text-white text-center pl-2 pr-2">Wishlist</div> -->
+              
+                          </div>
+              
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+              
+                    <div class="col-md-6 col-lg-3 mt-5">
+                      <div class="cards p-2">
+                        <img class="card-img-top" src="Images/img7.png" alt="">
+                        <div class="card-body">
+                          <div class="d-flex justify-content-between">
+              
+                            <h5 class="card-title">Nike</h5>
+                            <div>
+                              <span class="text-success">RS.</span><span class="text-success">4100</span>
+                            </div>
+                          </div>
+                          <p class="card-text" style="font-size:14px;">A workhorse built to help power you through</p>
+                          <div class="d-flex justify-content-between">
+              
+                           <button><div class="btn btn-dark text-white text-center pl-2 pr-2 cart_btn">Buy Now</div></button>
+                            <!-- <div class="bg-dark text-white text-center pl-2 pr-2">Wishlist</div> -->
+              
+                          </div>
+              
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+              
+                    <div class="col-md-6 col-lg-3 mt-5">
+                      <div class="cards p-2">
+                        <img class="card-img-top" src="Images/img8.png" alt="">
+                        <div class="card-body">
+                          <div class="d-flex justify-content-between">
+              
+                            <h5 class="card-title">Nike</h5>
+                            <div>
+              
+                              <span class="text-success">RS.</span><span class="text-success">4100</span>
+                            </div>
+                          </div>
+                          <p class="card-text" style="font-size:14px;">A workhorse built to help power you through</p>
+                          <div class="d-flex justify-content-between">
+              
+                           <button><div class="btn btn-dark text-white text-center pl-2 pr-2 cart_btn">Buy Now</div></button>
+                            <!-- <div class="bg-dark text-white text-center pl-2 pr-2">Wishlist</div> -->
+              
+                          </div>
+              
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="col-md-6 col-lg-3 mt-5">
+                      <div class="cards p-2">
+                        <img class="card-img-top" src="Images/img9.png" alt="">
+                        <div class="card-body">
+                          <div class="d-flex justify-content-between">
+              
+                            <h5 class="card-title">Nike</h5>
+                            <div>
+              
+                              <span class="text-success">RS.</span><span class="text-success">3390</span>
+                            </div>
+                          </div>
+                          <p class="card-text" style="font-size:14px;">Advance Trainer Men's Shoes Grey RX4537</p>
+                          <div class="d-flex justify-content-between">
+              
+                           <button><div class="btn btn-dark text-white text-center pl-2 pr-2 cart_btn">Buy Now</div></button>
+                            <!-- <div class="bg-dark text-white text-center pl-2 pr-2">Wishlist</div> -->
+              
+                          </div>
+              
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+              
+                    <div class="col-md-6 col-lg-3 mt-5">
+                      <div class="cards p-2">
+                        <img class="card-img-top" src="Images/img10.jpg" alt="">
+                        <div class="card-body">
+                          <div class="d-flex justify-content-between">
+              
+                            <h5 class="card-title">Adidas</h5>
+                            <div>
+                              <span class="text-success">RS.</span><span class="text-success">4120</span>
+                            </div>
+                          </div>
+                          <p class="card-text" style="font-size:14px;">Ultraboast 3.5 DNA Shoes Grey YT7878</p>
+                          <div class="d-flex justify-content-between">
+              
+                           <button><div class="btn btn-dark text-white text-center pl-2 pr-2 cart_btn">Buy Now</div></button>
+                            <!-- <div class="bg-dark text-white text-center pl-2 pr-2">Wishlist</div> -->
+              
+                          </div>
+              
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+              
+                    <div class="col-md-6 col-lg-3 mt-5">
+                      <div class="cards p-2">
+                        <img class="card-img-top" src="Images/img11.jpg" alt="">
+                        <div class="card-body">
+                          <div class="d-flex justify-content-between">
+              
+                            <h5 class="card-title">Reebok</h5>
+                            <div>
+              
+                              <span class="text-success">RS.</span><span class="text-success">4190</span>
+                            </div>
+                          </div>
+                          <p class="card-text" style="font-size:14px;">A workhorse built to help power you through</p>
+                          <div class="d-flex justify-content-between">
+              
+                           <button><div class="btn btn-dark text-white text-center pl-2 pr-2 cart_btn">Buy Now</div></button>
+                            <!-- <div class="bg-dark text-white text-center pl-2 pr-2">Wishlist</div> -->
+              
+                          </div>
+              
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="col-md-6 col-lg-3 mt-5">
+                      <div class="cards p-2">
+                        <img class="card-img-top" src="Images/img12.jpg" alt="">
+                        <div class="card-body">
+                          <div class="d-flex justify-content-between">
+                            <h5 class="card-title">Reebok</h5>
+                            <div>
+                              <span class="text-success">RS.</span><span class="text-success">3100</span>
+                            </div>
+                          </div>
+                          <p class="card-text" style="font-size:14px;">A workhorse built to help power you through</p>
+                          <div class="d-flex justify-content-between">
+              
+                           <button><div class="btn btn-dark text-white text-center pl-2 pr-2 cart_btn">Buy Now</div></button><br><br>
+                           <!-- <button class="btn btn-primary"><div class=" text-white text-center pl-2 pr-2">Wishlist</div></button> -->
+              
+                          </div>
+              
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                  </div>
+              
+                </div>
+              
+              
+                                <!--   This Video is part 2  -->
+              
+              
+                <!-- ================================= Cart ===================================== -->
+              
+              
+               
+               <div class="row pr-md-5 d-flex justify-content-center justify-content-md-end bg-info">
+                <div class="col-md-6 col-lg-4 mr-lg-5 border p-3 pb-4 rounded-lg bg-white ml-md-0" id="cart" style="position: absolute;z-index: 1;top: 1500px; right:60px;overflow: auto;">
+              
+                  <div class="d-flex">
+                    <div class="col-md-3">
+                       <h5>Product</h5>        
+                    </div>
+                    <div class="col-md-3 d-flex flex-wrap align-content-center">
+                      <h5>Title</h5>
+                    </div>
+                    <div class="col-md-3 d-flex flex-wrap align-content-center">
+                      <h5>Qty</h5>
+                    </div>
+                    <div class="col-md-2 d-flex flex-wrap align-content-center">
+                      <h5>Price</h5>
+                    </div>
+                    <div class="col-md-1"></div>
+                    
+                  </div>
+              
+                  <div id="order" style="overflow: auto;height: 250px;">
+                    
+                  </div>
+                  <div id="cart_footer">
+                <div id="order_btn" class="text-center text-white w-100 bg-dark p-2 font-weight-bold" style="letter-spacing: 1.2px;font-size: 20px;">
+                  Order
+                </div>      
+                  </div>
+                  
+                </div>
+                 
+               </div>
+              
+              
+              
+              
+              
+              
+              
+              
+                 
+               <div class="col-md-12">
+                  <a class="read_more" href="#">See More</a>
+               </div>
+            </div>
+            </div>
+         </div>
+      </div>
+      <!-- end project section -->
+      <!-- fashion section -->
+      <div class="fashion">
+         <img src="images/fashion.jpg" alt="#"/>
+      </div>
+      <!-- end fashion section -->
+      <!-- news section -->
+      <div class="news">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Letest News</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-12 margin_top40">
+                  <div class="row d_flex">
+                     <div class="col-md-5">
+                        <div class="news_img">
+                           <figure><img src="images/news_img1.jpg"></figure>
+                        </div>
+                     </div>
+                     <div class="col-md-7">
+                        <div class="news_text">
+                           <h3>Specimen book. It has survived not only five</h3>
+                           <span>7 July 2019</span> 
+                           <div class="date_like">
+                              <span>Like </span><span class="pad_le">Comment</span>
+                           </div>
+                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-12 margin_top40">
+                  <div class="row d_flex">
+                     <div class="col-md-5">
+                        <div class="news_img">
+                           <figure><img src="images/news_img2.jpg"></figure>
+                        </div>
+                     </div>
+                     <div class="col-md-7">
+                        <div class="news_text">
+                           <h3>Specimen book. It has survived not only five</h3>
+                           <span>7 July 2019</span> 
+                           <div class="date_like">
+                              <span>Like </span><span class="pad_le">Comment</span>
+                           </div>
+                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-12 margin_top40">
+                  <div class="row d_flex">
+                     <div class="col-md-5">
+                        <div class="news_img">
+                           <figure><img src="images/news_img3.jpg"></figure>
+                        </div>
+                     </div>
+                     <div class="col-md-7">
+                        <div class="news_text">
+                           <h3>Specimen book. It has survived not only five</h3>
+                           <span>7 July 2019</span> 
+                           <div class="date_like">
+                              <span>Like </span><span class="pad_le">Comment</span>
+                           </div>
+                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end news section -->
+      <!-- newslatter section -->
+      <div  class="newslatter">
+         <div class="container">
+            <div class="row d_flex">
+               <div class="col-md-5">
+                  <h3 class="neslatter">Subscribe To The Newsletter</h3>
+               </div>
+               <div class="col-md-7">
+                  <form class="news_form">
+                     <input class="letter_form" placeholder=" Enter your email" type="text" name="Enter your email">
+                     <button class="sumbit">Subscribe</button>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end newslatter section -->
+      <!-- three_box section -->
+      <div class="three_box">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="gift_box">
+                     <i><img src="images/icon_mony.png"></i>
+                     <span>Money Back</span>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="gift_box">
+                     <i><img src="images/icon_gift.png"></i>
+                     <span>Special Gift</span>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="gift_box">
+                     <i><img src="images/icon_car.png"></i>
+                     <span>Free Shipping</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end three_box section -->
+
+      <!--  footer -->
+      <footer>
+         <div class="footer">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-3">
+                     <div class="inror_box">
+                        <h3>INFORMATION </h3>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</p>
+                     </div>
+                  </div>
+                  <div class="col-md-3">
+                     <div class="inror_box">
+                        <h3>MY ACCOUNT </h3>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</p>
+                     </div>
+                  </div>
+                  <div class="col-md-3">
+                     <div class="inror_box">
+                        <h3>ABOUT  </h3>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</p>
+                     </div>
+                  </div>
+                  <div class="col-md-3">
+                     <div class="inror_box">
+                        <h3>CONTACTS  </h3>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+   
+         </div>
+      </footer>
+      <!-- end footer -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js&quot; integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js&quot; integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- <script>
+        RS.('document').ready(function(){
+       
+        $('#btn').click(function(){
+            // var checker =0;
+            for(var i =0; i<12; i++){
+                var card =RS.('div').filter('.col-sm-4')[i];
+                var title=$("h5").filter('.card-title')[i].innerText.toUpperCase();
+
+                if(title.indexOf(RS.("#inpid").val().toUpperCase())>-1){
+                    card.style.display='block';
+                    checker++;
+       
+       
+                }
+                else{
+                    card.style.display='none';
+                }
+       
+               
+            }
+       
+       
+        }); -->
+
+   </body>
+</html>
+
